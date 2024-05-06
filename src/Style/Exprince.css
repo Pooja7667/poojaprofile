@@ -1,0 +1,80 @@
+/* Style for the experience section */
+#experience {
+  text-align: center;
+}
+
+#experience h5 {
+  font-size: 18px;
+  color: #333;
+}
+
+#experience h4.center {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.both-boxs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 2rem; /* Adjusted the gap between frontend and backend */
+}
+
+.frontend,
+.backend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Adjusted the gap between items */
+  width:35%; /* Set the width of frontend and backend */
+  height: auto; /* Set the height to auto */
+  border: 1px solid rgb(10, 114, 234);
+  border-radius: 2rem;
+  padding: 1rem; /* Added padding for better spacing */
+  margin-bottom: 2rem; /* Added margin at the bottom */
+}
+
+.left1,
+.left2,
+.right1,
+.right2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+}
+
+.s-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h3,
+p {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .both-boxs {
+    gap: 1rem; /* Adjusted the gap between frontend and backend */
+  }
+
+  .frontend,
+  .backend {
+    width: 100%; /* Set the width to 100% for smaller screens */
+  }
+}
+
+
+.MuiSvgIcon-root {
+  color: blue; /* Changing the icon color to blue */
+  font-size: 24px;
+}
+
+.frontend:hover,
+.backend:hover {
+  background-color: #1177a3; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}

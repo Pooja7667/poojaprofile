@@ -1,0 +1,108 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Corrected property */
+  gap: 2px;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.me img {
+  width: 20rem;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(54, 122, 159), rgb(25, 37, 46));
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+  transition: transform 0.3s ease-in-out; /* Add a transition effect */
+}
+
+.me img:hover {
+  transform: scale(1.1); /* Scale the image slightly on hover */
+}
+
+.me > div {
+  margin-top: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h5,
+.container h1,
+.container h5 {
+  margin: 0;
+}
+
+.container h1 {
+  font-size: 24px;
+  color: hsl(0, 87%, 3%);
+}
+
+.container h5 {
+  font-size: 18px;
+  color: hwb(204 4% 92%);
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cat .btn {
+  background-image: linear-gradient(rgb(54, 122, 159), rgb(25, 37, 46));
+  color: hwb(0 91% 7%);
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cat .btn:last-child {
+  margin-right: 0;
+}
+
+.cat .btn-primary {
+  background-color: hsl(132, 24%, 96%);
+  color: black;
+}
+
+div > a {
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgb(219, 209, 209);
+  text-decoration: none;
+}
+
+.btn btn-primary {
+  height: max-content;
+}
+
+.cat {
+  text-align: center;
+}
+
+.btn a{
+  border: none;
+  background: none;
+  color: #020910; /* Link color */
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline; /* Add underline text decoration */
+  line-height:none;
+}
