@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
 import "../Style/Nav.css";
 
