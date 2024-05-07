@@ -35,3 +35,9 @@
   display: block;
   margin-bottom: 10px;
 }
+
+@media only screen {
+  .footer .container {
+    width: 100%;
+  }
+}
