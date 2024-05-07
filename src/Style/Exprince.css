@@ -56,16 +56,19 @@ p {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 400px) and (max-width: 1000px) {
   .both-boxs {
-    gap: 1rem; /* Adjusted the gap between frontend and backend */
+    flex-direction: column;
+   
   }
 
   .frontend,
   .backend {
-    width: 100%; /* Set the width to 100% for smaller screens */
+    width: 100%; 
+     border: none;/* Set the width to 100% for screens between 576px and 768px */
   }
 }
+
 
 
 .MuiSvgIcon-root {

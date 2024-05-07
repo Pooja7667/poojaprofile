@@ -6,6 +6,13 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import "../Style/Header.css";
 
 const Header = () => {
+  const handleScrollDown = () => {
+    const contectElement = document.getElementById("contect");
+    if (contectElement) {
+      contectElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <div className="main-box" id="home">
@@ -42,7 +49,11 @@ const Header = () => {
           </div>
 
           <div>
-            <a href="#scroll_down" className="scroll_down">
+            <a
+              href="#contact"
+              className="scroll_down"
+              onClick={handleScrollDown}
+            >
               Scroll Down
             </a>
           </div>
@@ -62,7 +73,11 @@ const Header = () => {
               Download CV
             </a>
           </button>
-          <button href="#contact" className="btn btn-primary">
+          <button
+            className="btn btn-primary"
+            id="contect"
+            onClick={handleScrollDown}
+          >
             Let's Talk
           </button>
         </div>

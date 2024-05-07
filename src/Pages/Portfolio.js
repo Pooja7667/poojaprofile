@@ -10,23 +10,23 @@ const Portfolio = () => {
     },
     {
       img: "https://cdn.dribbble.com/users/8141654/screenshots/17822438/media/be91809cd8e5246ab839765849ab4895.jpg?resize=400x0",
-      text: "Project Created Useing React and css",
+      text: "Full Stack Developer - Project 1",
     },
     {
       img: "https://mir-s3-cdn-cf.behance.net/projects/404/f77ffa179079137.Y3JvcCwxNTM1LDEyMDEsMTAyLDA.jpg",
-      text: "Project Created Useing React and css",
+      text: "Full Stack Developer - Project 2",
     },
     {
       img: "https://cdn.dribbble.com/users/8141654/screenshots/17833081/media/d748e8b38c495e4e87af0ae5f270e2c0.jpg?resize=400x300&vertical=center",
-      text: "Project Created Useing React and css",
+      text: "Full Stack Developer - Project 3",
     },
     {
       img: "https://img.freepik.com/premium-psd/portrait-landscape-postcard-mockup_80802-1202.jpg",
-      text: "Project Created Useing React and css",
+      text: "Full Stack Developer - Project 4",
     },
     {
       img: "https://img.freepik.com/premium-psd/modern-hotel-estate-landing-page-template-design-website_676553-91.jpg",
-      text: "Project Created Useing React and css",
+      text: "Backend project  using node js express mongodb atlas",
     },
   ];
 
@@ -35,7 +35,7 @@ const Portfolio = () => {
   return (
     <>
       <section id="portfolio" className="alldata">
-        <div  className="heading"> 
+        <div className="heading">
           <h5>My Recent Work</h5>
           <br></br>
           <h2>Projects</h2>
