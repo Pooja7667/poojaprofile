@@ -7,13 +7,10 @@ const Exprince = () => {
       <section id="experience">
         <h5>What skill Have</h5>
         <h4 className="center">MY Experience</h4>
-        <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-          <h3>Frontend Development</h3>
-          <h3>Backend Development</h3>
-        </div>
         <div className="both-boxs">
           <div className="frontend">
             <div className="right1">
+              <h3>Frontend Development</h3>
               <VerifiedIcon />
               <div className="s-1">
                 <h3>React</h3>
@@ -51,6 +48,7 @@ const Exprince = () => {
           </div>
           <div className="backend">
             <div className="right2">
+              <h3>Backend Development</h3>
               <VerifiedIcon />
               <div className="s-1">
                 <h3>Node js</h3>
